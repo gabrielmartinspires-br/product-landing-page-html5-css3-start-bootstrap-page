@@ -103,17 +103,29 @@ header {
     align-items: center;
     text-align: center;
 }
+.bi-window {
+    color: #3b7ee1;
+    font-size: 80px;
+}
 .camada {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
+.bi-layers {
+    color: #3b7ee1;
+    font-size: 80px;
+}
 .terminal {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+.bi-terminal {
+    color: #3b7ee1;
+    font-size: 80px;
 }
 .recursos_icones img {
     width: 80px;
