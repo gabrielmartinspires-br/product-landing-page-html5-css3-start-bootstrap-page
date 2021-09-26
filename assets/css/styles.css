@@ -24,6 +24,9 @@ header {
     padding: 10px;
 }
 .logo a {
+    display: flex;
+    padding-top: 12px;
+    margin-left: 18px;
     text-decoration: none;
 }
 .menu {
@@ -34,9 +37,11 @@ header {
     border-radius: 5px;
 }
 .sign-up {
-    padding-top: 25px;
+    display: flex;
+    padding: 8px;
+    padding-top: 8px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     color: #fff;
 }
 .banner_principal {
@@ -61,7 +66,7 @@ header {
 }
 .insert-mail {
     margin-right: 25px;
-    width: 490px;
+    width: 500px;
     height: 60px;
     font-size: 18px;
     color: #6c757d;
@@ -77,4 +82,46 @@ header {
     border: none;
     background-color: #3b7ee1;
     color: #fff;
+}
+.features-icons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;   
+    justify-content: center;
+    background-color: #fff;
+}
+.features-icons-icon {
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+}
+.janela {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.camada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.terminal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.recursos_icones img {
+    width: 80px;
+}
+.recursos_icones h1 {
+    margin-bottom: -3px;
+    font-size: 28px;
+}
+.recursos_icones p {
+    font-size: 18px;
 }
