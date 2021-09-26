@@ -6,8 +6,7 @@ body {
     margin: 0;
     padding: 0;
 }
-header {
-}
+
 .top-header {
     display: flex;
     justify-content: center;
@@ -85,7 +84,6 @@ header {
 }
 .features-icons {
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
     padding-top: 120px;
     padding-bottom: 120px;   
@@ -93,7 +91,8 @@ header {
     background-color: #fff;
 }
 .features-icons-icon {
-    display: flex;
+    display: flex;    
+    flex-wrap: wrap;
     width: 1100px;
     justify-content: space-between;
 }
@@ -104,7 +103,7 @@ header {
     text-align: center;
 }
 .bi-window {
-    color: #3b7ee1;
+    color: #0d6efd;
     font-size: 80px;
 }
 .camada {
@@ -114,7 +113,7 @@ header {
     text-align: center;
 }
 .bi-layers {
-    color: #3b7ee1;
+    color: #0d6efd;
     font-size: 80px;
 }
 .terminal {
@@ -124,16 +123,41 @@ header {
     text-align: center;
 }
 .bi-terminal {
-    color: #3b7ee1;
+    color: #0d6efd;
     font-size: 80px;
 }
-.recursos_icones img {
-    width: 80px;
-}
-.recursos_icones h1 {
+.recursos_text h1 {
     margin-bottom: -3px;
     font-size: 28px;
 }
-.recursos_icones p {
-    font-size: 18px;
+.recursos_text p {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: lighter;
+}
+.mostruario {
+    display: flex;
+    width: 100%;
+    padding-top: 100px;    
+    padding-bottom: 100px;
+    background-color: blueviolet;
+    justify-content: center;
+}
+.vitrines {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    background-color: burlywood;
+}
+.vitrine-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.vitrine-2 {
+    display: flex;
+    justify-content: space-between;
+}
+.vitrine-3 {
+    display: flex;
+    justify-content: space-between;
 }
