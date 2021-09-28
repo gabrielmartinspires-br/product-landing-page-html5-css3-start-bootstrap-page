@@ -134,30 +134,54 @@ body {
     font-size: 20px;
     line-height: 25px;
     font-weight: lighter;
+    flex-wrap: wrap;
 }
 .mostruario {
     display: flex;
     width: 100%;
     padding-top: 100px;    
     padding-bottom: 100px;
-    background-color: blueviolet;
     justify-content: center;
 }
 .vitrines {
     display: flex;
     flex-direction: column;
-    width: 1200px;
-    background-color: burlywood;
+    width: 100%;
 }
 .vitrine-1 {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .vitrine-2 {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .vitrine-3 {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.rack-1b {
+    background-image: url('../images/bg-showcase-1.jpg');
+    display: flex;
+    width: 600px;    
+    height: 300px;
+    background-size: cover;
+}
+.rack-2a {
+    background-image: url('../images/bg-showcase-2.jpg');
+    display: flex;
+    width: 600px;    
+    height: 300px;
+    background-size: cover;
+}
+.rack-3b {
+    background-image: url('../images/bg-showcase-3.jpg');
+    display: flex;
+    width: 600px;    
+    height: 300px;
+    background-size: cover;
 }
