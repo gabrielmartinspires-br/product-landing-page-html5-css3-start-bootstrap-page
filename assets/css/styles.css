@@ -126,6 +126,7 @@ body {
     color: #0d6efd;
     font-size: 80px;
 }
+
 .recursos_text h1 {
     margin-bottom: -3px;
     font-size: 28px;
@@ -155,7 +156,6 @@ body {
 }
 .vitrine-2 {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 .vitrine-3 {
@@ -163,25 +163,30 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.racks-text {
+    background-color: blue;
+    width: 58.5%;
 
+}
 .rack-1b {
     background-image: url('../images/bg-showcase-1.jpg');
     display: flex;
-    width: 600px;    
+    width: 50%;    
     height: 300px;
     background-size: cover;
 }
 .rack-2a {
     background-image: url('../images/bg-showcase-2.jpg');
     display: flex;
-    width: 600px;    
+    width: 50%;    
     height: 300px;
     background-size: cover;
 }
 .rack-3b {
     background-image: url('../images/bg-showcase-3.jpg');
     display: flex;
-    width: 600px;    
+    width: 50%;    
     height: 300px;
     background-size: cover;
+    background-position: 0px -130px;
 }
